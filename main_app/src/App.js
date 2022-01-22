@@ -1,9 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 
-import './Table.js';
-import './Food.js';
-
 
 
 function App() {
@@ -14,8 +11,7 @@ function App() {
         <p>
           POTATOH!!! <br></br>
 
-          let dataForTable = [];
-          <Table data = {dataForTable} /> //creates Table component
+
 
           Edit <code>src/App.js</code> and save to reload.
         </p>
