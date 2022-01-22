@@ -10,18 +10,18 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           POTATOH!!! <br></br>
-
+          <br></br>
           - A friendly app that helps you organize your fridge - <br></br>
 
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
