@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 
@@ -11,9 +11,8 @@ function App() {
         <p>
           POTATOH!!! <br></br>
 
+          - A friendly app that helps you organize your fridge - <br></br>
 
-
-          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
