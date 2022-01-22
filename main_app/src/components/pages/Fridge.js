@@ -1,9 +1,11 @@
 import React from 'react';
+import './Fridge.css';
 import './Home.css';
 import logo from '../../logo.png';
-import { Button } from '../Button';
 
-function Home (){
+// Random template to check if button is working
+
+function Fridge (){
 
     return (
         <div className="Home">
@@ -13,13 +15,11 @@ function Home (){
               POTATOH!!! <br></br>
               <br></br>
               - A friendly app that helps you organize your fridge - <br></br>
-    
             </p>
             <br></br>
-            <Button> Checkup your fridge now ! </Button>
           </header>
         </div>
       );
 }
 
-export default Home;
+export default Fridge;
