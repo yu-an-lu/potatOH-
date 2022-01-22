@@ -50,6 +50,9 @@ function App() {
             </tr>
           </thead>
           <tbody>
+            
+            
+            
             { //going to create a row for each food in our foods array 
               //parse through array, current element will be temp stored in variable food
             foods.map((food)=> (           
@@ -57,10 +60,28 @@ function App() {
               <td>{food.productName}</td>
               <td>{food.expirationDate}</td>
               <td>{food.productCategory}</td>
+           
+            {
+              // data.sort(function(a,b) {
+              //   a = a.split('/').reverse().join('');
+              //   b = b.split('/').reverse().join('');
+              //   return a > b ? 1 : a < b ? -1 : 0;
+              //   // return a.localeCompare(b);         // <-- alternative 
+              // })
+
+              data.sort((a, b) => {
+                return new Date(a.order_date) - new Date(b.order_date); // descending
+              })
+            }
             </tr>
             ))}
+
+            
+
+
           </tbody>
         </table>
+
         <h2>Add a Product</h2>
         <form>
           <input 
