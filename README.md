@@ -1,2 +1,2 @@
 # potatOH-
-Project for McHacks 2022
+Project for McHacks 2022 - Keep track of what's in your fridge and pantry, as well as the expiry date!
