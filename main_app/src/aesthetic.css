@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    background-color: lightblue ;
+
+    /* radial gradient background - css */
+
+    background: radial-gradient(rgba(161, 181, 190, 0.5), rgba(255,255,255,0.5));
+    text-align: center;
+    
+}
+
+#productDiv {
+    margin-top: 50px;
+}
+
+.input {
+    font-size: 25px;
+    color:black;
+    font-weight: 700;
+    font-family: cursive;
+    margin: 20px;
+}
+
+#entry {
+    width: 150px;
+    height: 40px;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: beige;
+    color: black;
+    box-shadow:0 2px 2px 0 rbga(0,0,0,0,5);
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+}
+
+table, th, td{
+    border:2px solid black;
+    padding: 5px;
+}
+
+th {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+tf {
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
