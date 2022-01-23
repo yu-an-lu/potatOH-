@@ -50,20 +50,6 @@ function Fridge (){
   }
 
 
-/** 
-  {Header: 'Transaction Date',accessor; '', style; {textAlign: "center"}
-        sortType: (a, b) => {
-        var a1 = new Date(a).getTime();
-        var b1 = new Date(b).getTime();
-        if(a1<b1)
-          return 1;
-        else if(a1>b1)
-          return -1;
-        else
-        return 0;
-      }
-    } */
-
   return (
     <div className="Fridge">
       <body>
@@ -121,9 +107,3 @@ function Fridge (){
   );
 }
 export default Fridge;
-
-// Random template to check if button is working
-
-// export default function Fridge (){
-// //   return <h1 className = 'fridge'> FRIDGE </h1>;
-// }
