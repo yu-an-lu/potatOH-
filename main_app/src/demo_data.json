@@ -1,0 +1,40 @@
+[
+
+    {
+        "id": 1,
+        "productName": "Bananas",
+        "expirationDate": "2022-01-23",
+        "productCategory": "Fruits and Veggies 🍅"
+    },
+    {
+        "id": 2,
+        "productName": "Milk",
+        "expirationDate": "2022-02-20",
+        "productCategory": "Dairy Products 🧀"
+    },
+    {
+        "id": 3,
+        "productName": "Eggs",
+        "expirationDate": "2022-01-26",
+        "productCategory": "Meat and Poultry and Fish 🦴"
+    },
+    {
+        "id": 4,
+        "productName": "Ice Cream",
+        "expirationDate": "2022-05-30",
+        "productCategory": "Processed Foods 🍦"
+    },
+    {
+        "id": 5,
+        "productName": "Strawberries",
+        "expirationDate": "2022-01-24",
+        "productCategory": "Fruits and Veggies 🍅"
+    },
+
+    {
+        "id": 6,
+        "productName": "Bread",
+        "expirationDate": "2022-01-22",
+        "productCategory": "Grains 🥐"
+    }
+  ]

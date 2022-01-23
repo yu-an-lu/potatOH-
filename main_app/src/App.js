@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Fridge from './components/pages/Fridge';
 import Home from './components/pages/Home';
 
 
@@ -10,6 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path = '/'  element = {<Home/>}/>
+          <Route path = '/fridge' component = {Fridge}/>
         </Routes>
       </Router>
     </>

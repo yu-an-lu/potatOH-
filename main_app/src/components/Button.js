@@ -9,7 +9,7 @@ export const Button = ({
 
 }) => {
     return (
-        <Link to ='/Fridge' className = 'Fridge.js'>
+        <Link to ='/fridge' className = 'btn-mobile'>
             <button 
             className = {'btn'}
             onClick={onClick}
