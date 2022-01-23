@@ -17,7 +17,7 @@ function Home (){
               - A friendly app that helps you organize your fridge - <br></br>
             </p>
             <br></br>
-            <Button> Checkup your fridge now ! </Button>
+            <Button> Explore your fridge now ! </Button>
           </header>
         </div>
       );

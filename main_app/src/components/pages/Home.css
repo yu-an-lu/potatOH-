@@ -24,10 +24,11 @@
     color: #fcfcfc;
   }
   
-  .Home-h1{
-    font-size: calc(20px + 2vmin);
+  h1{
+    font-size: calc(40px + 2vmin);
     color: #fcfcbd;
   }
+  
   .Home-link {
     color: #61dafb;
   }
