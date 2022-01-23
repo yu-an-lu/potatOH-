@@ -9,11 +9,12 @@ function Home (){
         <div className="Home">
           <header className="Home-header">
             <img src={logo} className="Home-logo" alt="logo" />
+            <h1>
+              potatOH!!! <br></br> 
+            </h1>
             <p>
-              POTATOH!!! <br></br>
               <br></br>
               - A friendly app that helps you organize your fridge - <br></br>
-    
             </p>
             <br></br>
             <Button> Checkup your fridge now ! </Button>
