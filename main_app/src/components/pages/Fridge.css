@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
 
-.app-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 1rem;
-}
-
 table {
   border-collapse: collapse;
   width: 80%;
@@ -38,8 +31,8 @@ form {
   display: flex;
   gap: 5px;
   background-color: #b9ce96e7;
-  margin-left: 22.5%;
-  margin-right: 22.5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 form td:last-child {
@@ -55,6 +48,7 @@ form * {
 body {
   background-color: #b9ce96e7;
   font-family:'Roboto', sans-serif;
+  text-align: center;
 }
 
 td, th {

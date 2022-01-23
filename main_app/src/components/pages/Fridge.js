@@ -65,12 +65,7 @@ function Fridge (){
     } */
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          POTATOH!!! <br></br>
-        </p>
-      </header>
+    <div className="Fridge">
       <body>
       <h2>Add a Product</h2>
         <form onSubmit={handleAddFormSubmit}>

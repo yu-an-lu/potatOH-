@@ -9,7 +9,7 @@ export const Button = ({
 
 }) => {
     return (
-        <Link to ='/fridge' className = 'btn-mobile'>
+        <Link to ='/Fridge' className = 'btn-mobile'>
             <button 
             className = {'btn'}
             onClick={onClick}

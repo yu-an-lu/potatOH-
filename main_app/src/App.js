@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path = '/'  element = {<Home/>}/>
-          <Route path = '/fridge' component = {Fridge}/>
+          <Route path = '/Fridge' element = {<Fridge/>}/>
         </Routes>
       </Router>
     </>
